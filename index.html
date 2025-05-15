@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chatbot Dialogflow</title>
     <meta charset="UTF-8" />
+    <title>Chatbot</title>
     <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
+      /* Faz o iframe ocupar toda a tela */
+      html, body {
+        margin: 0; padding: 0; height: 100%; width: 100%;
+        overflow: hidden;
       }
       iframe {
         border: none;
-        width: 350px;
-        height: 430px;
+        width: 100vw;  /* 100% da largura da viewport */
+        height: 100vh; /* 100% da altura da viewport */
       }
     </style>
   </head>
